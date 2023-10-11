@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Container Styling */
+.container {
+  padding: 2rem 10rem;
+  background-color: #2f1893;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Buttons styling */
+.btn {
+  padding: 0.8rem 1rem;
+  border-radius: 1.5rem;
+}
+.btn-primary {
+  background-color: #e93a7d;
+}
+.signBtn {
+  background-color: #482be7;
+  width: 100%;
+  color: #fff;
+}
+
+.twitBtn {
+  background-color: #1da1f2;
+  color: #fff;
+  width: 100%;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Hero section */
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 5rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.title {
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+.titleContent {
+  grid-row: 2/3;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.titleContent p {
+  margin-bottom: 1rem;
+}
+
+.signUpBox {
+  grid-row: 1/3;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  height: 32rem;
+  line-height: 52px;
+  width: 25rem;
+}
+
+.signUpBox h1 {
+  color: #1e0e62;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.formInput {
+  width: 100%;
+}
+
+.formInput > input {
+  font-size: 1rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+}
+
+.formInput {
+  color: black;
+}
+
+#service:checked {
+  color: #25dac5;
+}
+
+.line {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.line p {
+  margin: 0 0.2rem;
+}
+
+.line span {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  height: 2px;
+  width: 14rem;
+}
+
+.haveAccount {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
